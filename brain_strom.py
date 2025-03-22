@@ -29,6 +29,7 @@ businessAgent = BrainStrom()
 businessAgent.idea.create = "Shift towards business based market from job based market with Business Agent"
 businessAgent.idea.plan = [
     "You can create any business with any ideas simple, easier than before",
+    "Ideas is yours, control is yours and everything rest will agent do",
     "You have agent to work for you",
     "Example: i have a plan to open pickle maker industry",
     "You have site agent for make you great site for your needs",
@@ -41,3 +42,14 @@ businessAgent.idea.plan = [
     "Prime Agent: which control all other agent and manage your business overall"
 ]
 
+large_scale_project = BrainStrom()
+large_scale_project.problem.describe = "It require tremendous amount of capital and men force to build project like businessAgent"
+large_scale_project.problem.describe = [
+    "Instead i better build in chunks",
+    "Figure out right project idea which fit current resources capabilities",
+    "Example:",
+    "Build agent for develop website for your business which handed over you production file(html)",
+    "Build agent for deplolier which will deploy that site on your recommended web service(aws, ngnix, vercel etc)",
+    "Build agent for market research which will give you idea about what kind of prodcut in demand righ now",
+    "Build agent for your budget manager which will give you best possible way to mange your budget accoriding to your project"
+]

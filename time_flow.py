@@ -1,4 +1,5 @@
-
+import memory
+import datetime
 
 class Company:
     def __init__(self):
@@ -10,13 +11,24 @@ class University:
     
     
 class TimeFlow:
-    def __init__(self, date):
-        self.date = date
-        self.comapny = Company()
+    def __init__(self):
+        self.date = datetime.datetime.now().strftime("%Y-%m-%d")
+        self.company = Company()
         self.university = University()
+    
+    def save(self):
+        memory.store(
+            {
+                "date": self.date,
+                "university": self.university.t_task,
+                "company": self.company.t_task
+            }
+        )
         
         
-today_taks = TimeFlow(025-3-21)
+today_taks = TimeFlow()
 today_taks.university.t_task = [
-    " transformer acrhitecture explained"
+    
+    " firebase auth"
 ]
+today_taks.save()
