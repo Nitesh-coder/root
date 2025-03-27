@@ -40,5 +40,3 @@ body_chakra.plan = [
         "keyword": ['food', 'meaning', 'goal', 'objective',]
     }
 ]
-
-print(body_chakra.plan)

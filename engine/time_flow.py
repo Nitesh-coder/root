@@ -1,12 +1,15 @@
-import memory
+import model.memory as memory
 import datetime
 
 class Company:
     def __init__(self):
-        self.t_task = []
+        self.create = str,
+        self.t_task = [],
+        self.report = {}
     
 class University:
     def __init__(self):
+        self.syllabus = []
         self.t_task = []
     
     
@@ -15,6 +18,7 @@ class TimeFlow:
         self.date = datetime.datetime.now().strftime("%Y-%m-%d")
         self.company = Company()
         self.university = University()
+        self.report = []
     
     def save(self):
         memory.store(
