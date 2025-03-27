@@ -1,4 +1,4 @@
-from brain_strom import Ideas
+from engine.brain_strom import Ideas
 
 body_chakra = Ideas()
 body_chakra.create = "Visualizing body area with corresponding action will make you unified and more cyrstal clear to the life and world"
@@ -40,3 +40,5 @@ body_chakra.plan = [
         "keyword": ['food', 'meaning', 'goal', 'objective',]
     }
 ]
+
+print(body_chakra.plan)

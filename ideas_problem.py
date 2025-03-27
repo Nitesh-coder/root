@@ -1,21 +1,4 @@
-
-class Ideas:
-    def __init__(self):
-        self.create = str
-        self.plan = []
-        
-class Problem:
-    def __init__(self):
-        self.describe = str
-        self.plan = []
-        self.think = []
-    def explain(self, index):
-        pass
-        
-class BrainStrom:
-    def __init__(self):
-       self.idea = Ideas()
-       self.problem = Problem()
+from engine.brain_strom import BrainStrom
 
 UIDesign = BrainStrom()
 UIDesign.problem.describe = "It's hard to Get which kind of design is suit for app. From sketching to desigining"
