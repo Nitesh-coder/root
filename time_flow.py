@@ -28,7 +28,6 @@ class TimeFlow:
         
 today_taks = TimeFlow()
 today_taks.university.t_task = [
-    
-    " firebase auth"
+    "Pytorch: learn about it's usagage and make basic project"
 ]
 today_taks.save()

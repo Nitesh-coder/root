@@ -8,6 +8,9 @@ class Problem:
     def __init__(self):
         self.describe = str
         self.plan = []
+        self.think = []
+    def explain(self, index):
+        pass
         
 class BrainStrom:
     def __init__(self):
@@ -44,12 +47,29 @@ businessAgent.idea.plan = [
 
 large_scale_project = BrainStrom()
 large_scale_project.problem.describe = "It require tremendous amount of capital and men force to build project like businessAgent"
-large_scale_project.problem.describe = [
+large_scale_project.problem.plan = [
     "Instead i better build in chunks",
     "Figure out right project idea which fit current resources capabilities",
     "Example:",
     "Build agent for develop website for your business which handed over you production file(html)",
     "Build agent for deplolier which will deploy that site on your recommended web service(aws, ngnix, vercel etc)",
-    "Build agent for market research which will give you idea about what kind of prodcut in demand righ now",
+    "Build agent for market research which will give you idea about what kind of product in demand righ now",
     "Build agent for your budget manager which will give you best possible way to mange your budget accoriding to your project"
+]
+
+
+introspection = BrainStrom()
+introspection.problem.describe = "what's going on"
+introspection.problem.think = [
+    "do not lost in the way, balance out",
+    "it's wired to be reaction machine: your reaction describe you to the puble: practice reactionless"
+]
+
+map = BrainStrom()
+map.problem.describe = "It's hard to figure out where we are standing at when exploring big area like AI"
+map.problem.plan = [
+    "Research about map of areas",
+    "Create ai agent about it",
+    "Now integrate with react app",
+    "Deploy it in NGNIX server"
 ]
