@@ -45,7 +45,8 @@ introspection = BrainStrom()
 introspection.problem.describe = "what's going on"
 introspection.problem.think = [
     "do not lost in the way, balance out",
-    "it's wired to be reaction machine: your reaction describe you to the puble: practice reactionless"
+    "it's wired to be reaction machine: your reaction describe you to the puble: practice reactionless",
+    "overwhelmed by oppertunities, tools, complexity and doubtness"
 ]
 
 map = BrainStrom()
@@ -55,4 +56,12 @@ map.problem.plan = [
     "Create ai agent about it",
     "Now integrate with react app",
     "Deploy it in NGNIX server"
+]
+
+own_the_style = BrainStrom()
+own_the_style.problem.describe = "There are millions of design and style and it's hard to mix all the design to the product."
+own_the_style.problem.think = [
+    "So chose one theme for rest of the prodcut like apple",
+    "Chose one style and own the style",
+    "Theme, color and design should align"
 ]

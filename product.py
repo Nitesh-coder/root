@@ -10,3 +10,14 @@ code_snippet.report = {
         "result": "fail to test",
         "learning": "weight the project before dive in, measure every step and read terms and condition and requirements"
     }
+
+
+richard_agent = Company()
+richard_agent.create = 'A book agent which helps to understand, summaraize, make a test, and visualize complex concept from books'
+richard_agent.roadmap = [
+    {"backend": [
+        "we need brain: get llm api",
+        "we need data for testing: get pdf verson of book",
+        "we need tool: "
+    ]}
+]

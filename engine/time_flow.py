@@ -3,8 +3,10 @@ import datetime
 
 class Company:
     def __init__(self):
-        self.create = str,
-        self.t_task = [],
+        self.create = str
+        self.roadmap = []
+        self.features = []
+        self.t_task = []
         self.report = {}
     
 class University:
